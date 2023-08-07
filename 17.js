@@ -3,7 +3,7 @@
 let arr = [1, 2, 3, 4, 5];
 
 function doubleArray(arr) {
-  return arr.reduce((elem) =>  );
+  return arr.reduce((a, b) => a - b);
 }
 
 console.log(doubleArray(arr));
