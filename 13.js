@@ -1,3 +1,5 @@
+// calculates the factorial
+
 function factorial(num) {
   let fact = 1;
 
