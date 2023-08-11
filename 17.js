@@ -6,4 +6,6 @@ function findLargestElement(arr) {
 
 arr = [15, 15, 13, 1681, 215, 341, 654, 165, 165, 1, 165];
 
-console.log(findLargestElement(arr));
+let redue = findLargestElement(arr);
+
+console.log(redue);
