@@ -1,9 +1,9 @@
 // Find the largest element using reduce()
 
-let arr = [1, 2, 3, 4, 5];
-
-function doubleArray(arr) {
-  return arr.reduce((a, b) => a - b);
+function findLargestElement(arr) {
+  return arr.reduce((max, curr) => (curr > max ? curr : max));
 }
 
-console.log(doubleArray(arr));
+arr = [15, 15, 13, 1681, 215, 341, 654, 165, 165, 1, 165];
+
+console.log(findLargestElement(arr));
