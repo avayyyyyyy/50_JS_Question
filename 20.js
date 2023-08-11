@@ -1,6 +1,6 @@
 // try-catch block to handle an error of API fetch
 
-url = "https://jsonplaceholder.typicode.com/todos/1";
+url = "https://jsonplaceholder.typicode.com/todos/";
 
 async function getData() {
   try {
